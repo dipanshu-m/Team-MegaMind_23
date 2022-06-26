@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  */
+
+:root {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    ---font-white: #fff;
+    --grey-100: #D9D9D9;
+    --theme-colour: rgb(250,175,87);
+}
+
+/* Page Top */
+
+.c {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.item {
+    color: var(--grey-100);
+}
+.item:hover {
+    color: var(--theme-colour);
+    cursor: pointer;
+}
+.c:hover {
+    box-shadow:  0px 5px 6px 5px rgba(250,175,87, 0.9);
+}
+.no-background {
+    background: transparent;
+}
+
+.no-border {
+    border: none;
+}
+.productdisplay {
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+/* Rectangle 3 */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* width: 101%; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-bottom: 20px;
+
+    /* position: absolute; */
+    height: 108px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(193, 193, 193, 0.25);
+    border-radius: 5px;
+}
+
+
+.nav>* {
+    margin: 0px 20px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgnav {
+    height: 50px;
+    background: transparent;
+    border: none;
+}
+
+
+/* side */
+.card {
+    display: flex;
+    margin-left: 2%;
+}
+
+.side {
+    width: 20%;
+    /* background-color: aqua; */
+}
+
+/*  */
+
+/* InCraftWorks.com */
+.imgTitleLogo {
+    height: 2rem;
+    left: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.productdisplay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+
+}
+
+.filterbtn {
+    /* Rectangle 6 */
+    width: 173px;
+    height: 47px;
+    float: right;
+    border: none;
+    background: #001E4B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px 26px 26px 28px;
+    color: var(---font-white);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.side {
+    border: 10px solid grey;
+    border-width: 0px 2px 0px 0px;
+}
+.side>* {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+/* InCraftWorks.com */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #FAAF57;
+
+
+
+/* Home */
+
+position: absolute;
+left: 36.44%;
+right: 57.47%;
+top: 45.37%;
+bottom: 31.48%;
+
+
+
+/* Home */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #D9D9D9;
+
+
+
+/* Home */
+
+position: absolute;
+left: 58.4%;
+right: 35.52%;
+top: 45.37%;
+bottom: 31.48%;
+
+
+
+/* Home */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #D9D9D9;
+
+
+
+/* Home */
+
+position: absolute;
+left: 51.32%;
+right: 42.59%;
+top: 45.37%;
+bottom: 31.48%;
+
+
+
+/* Home */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #D9D9D9;
+
+
+
+/* Home */
+
+position: absolute;
+left: 42.53%;
+right: 51.39%;
+top: 45.37%;
+bottom: 31.48%;
+
+
+
+/* Home */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #D9D9D9;
+
+
+
+/* Search bar */
+
+position: absolute;
+left: 65.41%;
+right: 21.69%;
+top: 39.81%;
+bottom: 19.44%;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #F4F4F4;
+
+
+/* Search for Crafts */
+
+position: absolute;
+left: 28.57%;
+right: 4.25%;
+top: 25%;
+bottom: 31.82%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #9E9E9E;
+
+
+
+/* Union */
+
+position: absolute;
+left: 5.71%;
+right: 79.85%;
+top: 18.75%;
+bottom: 15.83%;
+
+background: #B3B3B3;
+
+
+/* Ellipse 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 5.71%;
+right: 84.49%;
+top: 18.75%;
+bottom: 39.58%;
+
+border: 5px solid #B3B3B3;
+
+
+/* Line 1 */
+
+position: absolute;
+left: 13.67%;
+right: 78.23%;
+top: 51.04%;
+bottom: 48.89%;
+
+border: 7px solid #B3B3B3;
+transform: matrix(0.71, 0.81, -0.61, 0.71, 0, 0);

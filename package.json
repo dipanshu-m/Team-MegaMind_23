@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "firebase": "^9.8.4"
+  },
+  "name": "incraftworks",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
