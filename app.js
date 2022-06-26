@@ -43,6 +43,9 @@ app.get('/products', (request, resolve)=> {
     resolve.render('products')
 })
 
+app.get('/productDisplay/', (request, response)=> {
+    response.render('product-page');
+})
 app.use('/auth', authRoutes)
 
 app.get('*', (request, resolve) => {
